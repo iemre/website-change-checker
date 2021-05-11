@@ -1,6 +1,8 @@
 Set of hacky scripts to detect changes in website content by comparing screenshots of websites at different times.
 Used it originally to bag a PS5 during the global microchip/PS5 shortage.
 
+Doesn't handle Captchas, or anything that websites put before you every now and then to check the user is a human.
+
 
 ## Usage
 
