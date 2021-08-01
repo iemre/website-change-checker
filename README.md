@@ -10,7 +10,7 @@ Doesn't handle Captchas, or anything that websites put before you every now and 
 
 * Make sure you have Docker installed
 
-* Populate `urls.txt` with the websites you want to take sreenshot of, and the regions of interest defined in pixels e.g. `google.com 100 200 300 400` will take a screenshot of google.com and crop it starting from 100 pixels from the left, 200 from the top, and ending 300 pixels to the left, and 400 pixels from the top.  
+* Populate `urls.txt` with the websites you want to take sreenshot of, and the regions of interest defined in pixels e.g. `google.com 100 200 300 400` will take a screenshot of google.com and crop it starting from 100 pixels from the left, 200 from the top, and ending 300 pixels from the left, and 400 pixels from the top.  
 
 * Set `DISCORD_WEBHOOK` envar with your Discord webhook. Or modify the curl command in `start.sh` to use other systems (e.g. Slack) for alerts
 
